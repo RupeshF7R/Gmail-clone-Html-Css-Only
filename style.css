@@ -258,18 +258,7 @@ nav {
     align-items: center;
 
 }
-.center-slider{
-        margin-top: 5px;
-        width: 1000px;
-        height: 40px;
-        /* background-color: red; */
-        margin-right: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        /* position: relative;
-        bottom: 40px; */
-}
+/* hello */
 .u-down-icon{
     width: 25px;
     position: relative;
@@ -295,8 +284,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     position: relative;
-    bottom: 25px;
+    bottom: 35px;
     text-align: center;
+    font-family: poppins;
+
 }
 .up-icon{
     width: 25px;
@@ -333,6 +324,63 @@ nav {
     /* align-items: center; */
 
     width: 98%;
-    height: 80px;
+    height: 1px;
+    /* background-color: red; */
     /* background-color: var(---nav-serach-bar-color); */
+}
+
+.full-box3{
+    margin-top: 10px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(0, 255, 42);
+    /* background-color: var(---nav-serach-bar-color); */
+}
+.left-box3{
+    margin-top: 5px;
+    width: 130px;
+    /* height: 60px; */
+    display: flex;
+    background-color: #c2e7ff;
+    margin-right: 110px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 20px;
+    padding: 10px;
+    font-family: poppins; */
+    margin-left: 20px;
+    /* margin-right: 20px; */
+    
+}
+.center-box-line3{
+    width: 1000px;
+    height: 400px;
+    background-color: white;
+    margin-right: 20px;
+    display: grid;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* position: relative; */
+    /* bottom: 35px; */
+    /* text-align: center; */
+    /* font-family: poppins; */
+    overflow-x: scroll;
+
+}
+.right-box3{
+    /* margin-top: 5px; */
+    width: 45px;
+    height: 600px;
+    /* background-color: #ffffff; */
+    /* display: grid; */
+    align-items: center;
+    justify-content: center;
+
 }
