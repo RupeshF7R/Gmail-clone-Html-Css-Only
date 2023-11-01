@@ -39,6 +39,9 @@ nav {
     position: relative;
 
 }
+.menu-bar:hover{
+    background-color: var(---nav-serach-bar-color);
+}
 .logo{
     position: relative;
     margin-left: var(---margin-left-logo);
@@ -48,10 +51,12 @@ nav {
 .logo-box{
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 .serach-bg{
     width: 50px;
     height: 40px;
+    padding: 10px;
     background-color: var(---nav-serach-bar-color);
     align-items: center;
     justify-content: center;
@@ -76,7 +81,7 @@ nav {
     width: 25px;
 }
 .mail-serach-box{
-    width: 500px;
+    width: 650px;
     height: 40px;
     background-color: var(---nav-serach-bar-color);
     border: 1px solid #eaf1fb;
@@ -87,12 +92,21 @@ nav {
 .search-box{
     background-color: var(---nav-serach-bar-color);
     border-radius: 20px;
+    /* margin-left: 10px; */
     
 
 }
 
-.mail-serach-box:active{
-    border: 1px solid #eaf1fb;
+.more-box img{
+    width: 20px;
+
+}
+.more-box{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+
+
 }
 
 
