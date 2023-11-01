@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    ---text-color: gray;
+    ---main-text-color: black;
+    ---icon-width: 30px;
+    ---opacity-icons: 70%;
+    ---border-radius: 360px;
+    ---margin-left: 30px;
+    ---margin-left-logo: 20px;
+    ---margin-right: 30px;
+    ---width-main-icons:25px;
+    ---border-color: gray;
+    ---nav-serach-bar-color:#eaf1fb;
+
+}
+
+nav {
+    display: flex;
+
+}
+
+.header-nav-box {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:var(---margin-left);
+    margin-right:var(var---margin-right);
+
+}
+.menu-bar{
+    width: 20px;
+    position: relative;
+
+}
+.logo{
+    position: relative;
+    margin-left: var(---margin-left-logo);
+
+    top: 8px;
+}
+.logo-box{
+    justify-content: center;
+    align-items: center;
+}
+.serach-bg{
+    width: 50px;
+    height: 40px;
+    background-color: var(---nav-serach-bar-color);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px 0 0 10px;
+    opacity: var(---opacity-icons);
+}.setting-icon-bg{
+    width: 50px;
+    height: 40px;
+    background-color: var(---nav-serach-bar-color);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 0 10px 10px 0;
+    opacity: var(---opacity-icons);
+}
+.setting-icon{
+    width: 25px;
+
+}
+.search-icon{
+    width: 25px;
+}
+.mail-serach-box{
+    width: 500px;
+    height: 40px;
+    background-color: var(---nav-serach-bar-color);
+    border: 1px solid #eaf1fb;
+    font-size: 20px;
+    color: var(---text-color);
+
+}
+.search-box{
+    background-color: var(---nav-serach-bar-color);
+    border-radius: 20px;
+    
+
+}
+
+.mail-serach-box:active{
+    border: 1px solid #eaf1fb;
+}
+
+
+
+
+
+
+
+.profile-icon {
+    width: var(---icon-width);
+}
