@@ -468,5 +468,13 @@ nav {
 
 }
 .images-pdf{
-    margin-left: 230px;
+    /* margin-left: 230px; */
+}
+.first-image{
+    /* width: 90px;
+    height: 10px; */
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
