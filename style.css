@@ -148,7 +148,7 @@ nav {
 }
 .left-box{
     margin-top: 5px;
-    width: 130px;
+    width: 140px;
     height: 60px;
     display: flex;
     background-color: #c2e7ff;
@@ -166,7 +166,7 @@ nav {
     transition: 4s all cubic-bezier(0.19, 1, 0.22, 1);
 }
 .edit-icon{
-    width: 20px;
+    width: 16px;
     margin-right: 10px;
     align-items: center;
     justify-content: center;
