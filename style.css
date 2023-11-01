@@ -5,9 +5,9 @@
     box-sizing: border-box;
     
 }
-body{
+/* body{
     overflow: hidden;
-}
+} */
 
 :root {
     ---text-color: gray;
@@ -367,7 +367,7 @@ nav {
 }
 .center-box-line3{
     width: 1000px;
-    height: 600px;
+    height: 100%;
     background-color: white;
     margin-right: 20px;
     display: block;
@@ -429,4 +429,44 @@ nav {
     justify-content: center;
     align-items: center;
 
+}.mail-check-icon2{
+    margin-right: 10px;
+}
+.star-icon2{
+    width: 20px;
+    margin-right: 10px;
+}
+.book2{
+    margin-right: 10px;
+}
+.msg-title2{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 70px;
+}
+.more-dots2{
+    width: 15px;
+    margin-right: 200px;
+}
+.msg-title-des2{
+    font-family: poppins;
+    font-size: 13px;
+
+}
+.msg-shot{
+    font-family: poppins;
+    font-size: 10px;
+}
+.mail-2{
+    background-color: rgb(255, 255, 255);
+    width: 980px;
+    height: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.images-pdf{
+    margin-left: 230px;
 }
