@@ -364,7 +364,7 @@ nav {
     height: 400px;
     background-color: white;
     margin-right: 20px;
-    display: grid;
+    display: block;
     /* align-items: center; */
     justify-content: space-between;
     /* position: relative; */
@@ -382,5 +382,44 @@ nav {
     /* display: grid; */
     align-items: center;
     justify-content: center;
+
+}
+/*  */
+.mail-check-icon{
+    margin-right: 10px;
+}
+.star-icon{
+    width: 20px;
+    margin-right: 10px;
+}
+.book{
+    margin-right: 10px;
+}
+.msg-title{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 70px;
+}
+.more-dots{
+    width: 15px;
+    margin-right: 200px;
+}
+.msg-title-des{
+    font-family: poppins;
+    font-size: 13px;
+
+}
+.msg-shot{
+    font-family: poppins;
+    font-size: 10px;
+}
+.mail-1{
+    background-color: rgb(255, 255, 255);
+    width: 980px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
