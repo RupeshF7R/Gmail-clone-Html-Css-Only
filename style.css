@@ -226,7 +226,7 @@ nav {
     /* margin-top: 5px; */
     width: 45px;
     height: 1000px;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     display: grid;
     align-items: center;
     justify-content: center;
@@ -384,11 +384,11 @@ nav {
 }
 
 .left-box3 {
-    margin-top: 5px;
+    margin-top: 25px;
     width: 130px;
     /* height: 60px; */
     display: flex;
-    background-color: #c2e7ff;
+    /* background-color: #c2e7ff; */
     margin-right: 110px;
     text-align: center;
     justify-content: center;
@@ -399,6 +399,69 @@ nav {
     margin-left: 20px;
     /* margin-right: 20px; */
 
+}
+.left-box2{
+    margin-top: 2px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.inbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    background-color: #c2e7ff;
+    border-radius:  20px 20px;
+}
+.inbox a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    margin-right: 5px;
+}
+.inbox-text{
+    margin-right: 5px;
+}
+.inbox-img{
+    width: 18px;
+    margin-left: 62px;
+}
+.inbox-number{
+    margin-left: 40px;
+    margin-right: 10px;
+    justify-content: end;
+    font-family: poppins;
+    font-size: 10px;
+
+}
+
+/* new */
+.Started{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    /* justify-content: c; */
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    background-color: red;
+    border-radius:  20px 20px;
+}
+.Started a{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    margin-right: 5px;
+}
+.Started-text{
+    margin-left: 35px;
+}
+.Started-img{
+    width: 18px;
+    margin-left: 62px;
 }
 
 .center-box-line3 {
